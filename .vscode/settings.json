@@ -1,0 +1,46 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "node_modules": true,
+    ".next": true,
+    ".contentlayer": true,
+    ".yarn": true,
+    ".husky": true,
+    ".github": true,
+    ".devcontainer": true,
+    ".vscode": false,
+    ".gitattributes": true,
+    ".gitignore": true,
+    ".yarnrc.yml": true,
+    ".env.example": true,
+    "yarn.lock": true,
+    "package-lock.json": true,
+    "eslint.config.mjs": true,
+    "prettier.config.js": true,
+    "postcss.config.js": true,
+    "next-env.d.ts": true,
+    "next.config.js": true,
+    "tsconfig.json": true,
+    "jsconfig.json": true,
+    "contentlayer.config.ts": true,
+    "LICENSE": true
+  },
+  "search.exclude": {
+    "node_modules": true,
+    ".next": true,
+    ".contentlayer": true,
+    ".yarn": true,
+    "yarn.lock": true,
+    "package-lock.json": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.next/**": true,
+    "**/.contentlayer/**": true,
+    "**/.yarn/**": true
+  }
+}
